@@ -44,10 +44,5 @@ const SERIAL_PORT_NAME	= 'COM4'; // Arduinoが接続されているポート名
 const SERIAL_BIT_RATE	= 9600; // Arduinoのスケッチで設定した値と同じにする  
 const KADECOT_IP = '192.168.11.121' ; //  
 
-・[Chrome Packaged App](http://iti.hatenablog.jp/entry/2013/10/10/115550)を実行できるようにする。
+・[Chrome Packaged App](http://iti.hatenablog.jp/entry/2013/10/10/115550)を実行できるようにし、上記chromeserialecho/フォルダをPackaged Appに追加、実行。
 
-
-
-
-
-詳細はソースコードを見てみてください。意外に簡単かもしれません。
