@@ -1,8 +1,8 @@
 # littleBitsとKadecotでECHONET Lite家電の制御
 
-littleBitsのBITS MODULES W6 ARDUINOと、Kadecotを使ってECHONET Lite家電を動かすデモを作りました。
+littleBitsのBITS MODULES W6 ARDUINOと、Kadecotを使ってECHONET Lite家電を動かすデモを作った。
 
-(YouTube ビデオへのリンクです)
+(YouTube ビデオへのリンク)
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/zNQbyeDHJKw/0.jpg)](http://www.youtube.com/watch?v=zNQbyeDHJKw)
 
