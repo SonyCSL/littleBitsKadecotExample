@@ -1,13 +1,13 @@
 {
   "name": "littleBitsKadecotExample",
-  "description": "little bitsによるkadecot機器の操作",
+  "description": "littleBitsによるKadecot機器の操作",
   "version": "1.0",
   "app": {
     "background": {
       "scripts": ["background.js"]
     }
   },
-  "icons": { "128": "sample_packaged-128.png" },
+  "icons": { "128": "Kadecot128.png" },
   "permissions": [
      "serial"
   ]
