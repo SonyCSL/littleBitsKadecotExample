@@ -27,8 +27,27 @@ PCはChromeが動けばOSの種類は問わない。ラズパイ自身でPCの�
 ## リポジトリ構成
 
 * arduinobit/
+
 littleBitsのArduinoに書き込むスケッチが入っている。ボードはArduino Leonardにすること。
+
 * chromeserialecho/
+
 シリアルとKadecot APIにアクセスするChrome Packated App。
+
+## 実行時
+
+・実行前には、まずLinux(ラズパイなど)の上でKadecotサーバー[Kadecot|JS](https://github.com/SonyCSL/Kadecot-JS)を起動する
+
+・index.js冒頭にある、以下の変数を書き換える。
+
+const SERIAL_PORT_NAME	= 'COM4'; // Arduinoが接続されているポート名  
+const SERIAL_BIT_RATE	= 9600; // Arduinoのスケッチで設定した値と同じにする  
+const KADECOT_IP = '192.168.11.121' ; //  
+
+・[Chrome Packaged App](http://iti.hatenablog.jp/entry/2013/10/10/115550)を実行できるようにする。
+
+
+
+
 
 詳細はソースコードを見てみてください。意外に簡単かもしれません。
