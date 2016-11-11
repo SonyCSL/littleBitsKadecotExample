@@ -3,6 +3,7 @@
 littleBitsのBITS MODULES W6 ARDUINOと、Kadecotを使ってECHONET Lite家電を動かすデモを作りました。
 
 (YouTube ビデオへのリンクです)
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/zNQbyeDHJKw/0.jpg)](http://www.youtube.com/watch?v=zNQbyeDHJKw)
 
 ## 使ったもの
